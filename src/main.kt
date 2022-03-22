@@ -10,7 +10,7 @@ fun main(){
     you.eat(3)
     println(you.weight)
 
-    you.speak("It is her birthday")
+    you.speak("It is her wedding day")
     you.birthday()
 
     var lovely= user("Mary","Wambui", "marywambui@gmail.com", "0756345216", "stui354")
