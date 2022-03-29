@@ -13,7 +13,7 @@ fun main(){
     you.speak("It is her birthday")
     you.birthday()
 
-    var lovely= user("Mercy","yugi", "mercyyugi@gmail.com", "0756345216", "stui354")
+    var lovely= user("Mary","yugi", "mercyyugi@gmail.com", "0756345216", "stui354")
 println(lovely.firstName)
     println(lovely.phoneNumber)
 }
@@ -36,7 +36,7 @@ class Humans(var name: String, var age: Int, var weight:Double) {
 
     }
 }
-//Create a data class User with these fields: firstName, lastName, email,
+//Create  data class User with these fields: firstName, lastName, email,
 //phoneNumber, password. Create an instance of User  and print out any 2
 //attributes
 data class user(var firstName: String, var lastName: String, var email: String, var phoneNumber: String, var password: String )
